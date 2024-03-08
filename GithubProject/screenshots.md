@@ -20,4 +20,4 @@
 ![gitorigin](./img/6_gitorigin.png)
 
 **gitclone command is used to make a copy of our remte repository in our local machine**
-![gitclone](./img/7_gitclone.png)
+![gitclone](./img/7_gitclone2.png)
