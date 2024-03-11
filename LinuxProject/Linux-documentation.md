@@ -18,4 +18,7 @@
 ![Size](./img/5_size.png)
 
 
+**The du command offers the total size of a specific folder**
+![du](./img/6_du.png)
+
 ![du](./img/6_du.png)
