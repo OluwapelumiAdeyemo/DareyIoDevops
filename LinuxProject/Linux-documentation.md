@@ -24,7 +24,7 @@
 **The locate command is used to find a file in the database system**
 ![locate](./img/7_locate.png)
 
-**The grep command is used to search through log files.
+**The grep command is used to search through log files**
 ![grep](./img/8_grep.png)
 
 **The chmod-rw command is used to remove all the permissions from a file/user group**
@@ -34,7 +34,7 @@
 ![ping](./img/10_ping.png)
 
 **The widget command let's us download files from the internet**
-![wget](./img/11_wgetpng)
+![wget](./img/11_wget.png)
 
 **The uname command will print detailed information about your linux system and hardware**
 ![uname](./img/12_uname.png)
