@@ -1,1 +1,0 @@
-###Lamp Stack Project!
