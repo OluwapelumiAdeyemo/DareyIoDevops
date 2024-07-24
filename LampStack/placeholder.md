@@ -36,6 +36,48 @@ sudo apt install mysql-server
 
 ![4_apacheserver!](./img/8_mysqlpassword.png)
 
+## To Install the 2 packages.
+sudo apt install php-fpm php-mysql
+
+![4_apacheserver!](./img/10_phpinstallation.png)
+
+## Configuring Nginx to Use PHP Processor
+Create a root web directory for your_domain as follows
+sudo mkdir /var/www/projectLEMP
+To cd into the root directory
+sudo -i
+cd /var/www/
+
+![4_apacheserver!](./img/11_varfile.png)
+
+![4_apacheserver!](./img/12_enablesiteprojectlamp.png)
+
+![4_apacheserver!](./img/13_sudonano.png)
+
+![4_apacheserver!](./img/14_enablesites.png)
+
+![4_apacheserver!](./img/15_hostname.png)
+
+## To try to open my website through my web browser, using the my public IP, run the below command.
+http://<Public-IP-Address>:80
+
+![4_apacheserver!](./img/16_lampprojectcurlpage.png)
+
+## Testing PHP with Nginx
+Inside the ProjectLEMP folder, create a LEMP file with the name info.php.
+touch info.php
+
+![4_apacheserver!](./img/17_phpinfo.png)
+
+![4_apacheserver!](./img/18_phpnewfile.png)
+
+## Open the php page with Ip address
+![4_apacheserver!](./img/20_phppage.png)
+
+
+
+
+
 
 
 
