@@ -2,6 +2,6 @@
 
 ## Shows that the Instance has been succesfully connected
 
-![18_todolist!](./img/18_todolist.png)
+![18_todolist!](./img/19_todolist.png)
 
 ![1_load!](./img/1_load.png)
