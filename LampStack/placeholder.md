@@ -13,3 +13,6 @@
 
 ![3_sudoupdate.png!](./img/3_sudoupdate.png)
 
+## To verify that Apache2 is running as a service in our OS
+
+![4_apacheserver!](./img/4_runningapacheserver.png)
