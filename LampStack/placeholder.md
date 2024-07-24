@@ -58,7 +58,9 @@ cd /var/www/
 ![4_apacheserver!](./img/15_hostname.png)
 
 ## To try to open my website through my web browser, using the my public IP, run the below command.
+
 http://<Public-IP-Address>:80
+
 ![4_apacheserver!](./img/16_lampprojecturlpage.png)
 
 ## Testing PHP with Nginx
