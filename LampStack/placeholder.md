@@ -23,3 +23,19 @@ or curl http://127.0.0.1:80
 
 ![4_apacheserver!](./img/5_checkingort80.png)
 
+## View the url in web browser to show that the web server is correctly installed
+
+![4_apacheserver!](./img/6_apachedefaultpage.png)
+
+## To Install mysql on Nginx Server
+sudo apt install mysql-server
+
+![4_apacheserver!](./img/7_mysqlserver2.png)
+
+## To set password for the Root user ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+
+![4_apacheserver!](./img/8_mysqlpassword.png)
+
+
+
+
