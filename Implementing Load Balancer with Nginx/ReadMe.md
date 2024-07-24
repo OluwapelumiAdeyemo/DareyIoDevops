@@ -24,7 +24,57 @@ sudo apt update -y
 
 ## sudo systemctl status apache2
 
-![1_name!](./img/6_scriptrun.png)
+![1_name!](./img/13_nginxrunning.png)
+![1_ec2connect.png!](./img/5_apacheisrunning.png)
 
-##
+## To configure Apache to serve content on port 8000.
+
+Using the nano text editor, open the file/etc/apache2/ports.conf
+sudo nano /etc/apache2/ports.conf 
+
+![1_ec2connect.png!](./img/6_vimport80.png)
+
+## On both servers, open the file /etc/apache2/sites-available/000-default.conf , and change port 80 on the virtualhost to 8000.
+sudo nano /etc/apache2/sites-available/000-default.conf
+
+![1_ec2connect.png!](./img/7_edittoport8000.png)
+
+![1_ec2connect.png!](./img/8_publicipchange.png)
+
+## A Welcome Web Browser Apache 1 & 2 Servers
+
+![1_ec2connect.png!](./img/11_welcometoec2.png)
+
+## Install Nginx
+sudo apt update -y && sudo apt install nginx -y
+
+![1_ec2connect.png!](./img/12_nginxinstall2.png)
+
+## Verify Nginx is installed and working
+sudo systemctl status nginx
+
+![1_ec2connect.png!](./img/13_nginxrunning2.png)
+
+## Open Nginx Configuration File
+sudo nano /etc/nginx/conf.d/loadbalancer.conf
+
+![1_ec2connect.png!](./img/14_nginxconfig.png)
+
+## To test Configuration, Run
+sudo nginx -t
+
+![1_ec2connect.png!](./img/15_nginxtest.png)
+
+## In the web browser paste the Ip-address of the Nginx load paste and hit enter.
+
+THE RESULT
+Load-balancer apache
+
+![1_ec2connect.png!](./img/16_nginxdisplay.png)
+
+
+
+
+
+
 
