@@ -3,4 +3,4 @@
 ## Provision EC2 Instance
 Open the AWS Console and create the instances
 
-![1_name!](../img/1_instancecreation.png)
+![1_name!](./img/1_instancecreation.png)
