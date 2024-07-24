@@ -2,4 +2,4 @@
 
 ## Shows that the Instance has been succesfully connected
 
-![instanceconnect](./images/13_todolist.png)
+![13_todolist.png](./img/13_todolist.png)
