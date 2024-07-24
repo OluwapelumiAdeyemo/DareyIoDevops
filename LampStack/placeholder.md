@@ -13,6 +13,13 @@
 
 ![3_sudoupdate.png!](./img/3_sudoupdate.png)
 
-## To verify that Apache2 is running as a service in our OS -sudo systemctl status nginx
+## To verify that Apache2 is running as a service in our OS - sudo systemctl status nginx
 
 ![4_apacheserver!](./img/4_runningapacheserver.png)
+
+## To access Nginx server via local machine
+Run curl http://localhost:80
+or curl http://127.0.0.1:80
+
+![4_apacheserver!](./img/5_checkingort80.png)
+
