@@ -21,7 +21,7 @@ sudo nano install.sh
 ## Change the permissions for both servers on the file to make it executable using the command below
 sudo chmod +x install.sh
 
-![1_name!](../img/3_changepermission.png)
+![1_name!](./img/3_changepermission.png)
 
 Run the shell script using the command below. Read the instructions in the shell script to learn how to use it. - Public IP of my 2 web server created in the EC2 instance - Web Server 1 - 13.51.198.3 & Web Server 2 - 13.53.197.31
 ./install.sh PUBLIC_IP
