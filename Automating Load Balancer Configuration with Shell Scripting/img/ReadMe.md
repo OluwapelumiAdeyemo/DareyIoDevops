@@ -30,8 +30,6 @@ Run the shell script using the command below. Read the instructions in the shell
 
 ![1_name!](../img/4_changepermission.png)
 
-
-
 ![1_name!](../img/4_script.png)
 
 ![1_name!](../img/3_scriptrun.png)
@@ -43,9 +41,9 @@ sudo chmod +x install.sh
 
 ![1_name!](../img/5_installapacheonpub.png)
 
-## Web Browser Display for web server
-
 ![1_name!](../img/6_result.png)
+
+## Web Browser Display for web server
 
 ![1_name!](../img/7_webserver1screenshot.png)
 
@@ -67,7 +65,7 @@ Note: Public IP of the load balancer which is the EC2 instance and the public IP
 
 ![1_name!](../img/4_scriptrun.png)
 
-![1_name!](../img/5_output.png)
+![1_name!](../img/5_outpt.png)
 
 
 
