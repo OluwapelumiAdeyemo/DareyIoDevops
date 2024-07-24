@@ -14,3 +14,8 @@ sudo systemctl status nginx
 
 ![1_load!](./img/2_nginxrunning.png)
 
+## To access Nginx server via local machine
+Run curl http://localhost:80
+or curl http://127.0.0.1:80
+
+![1_load!](./img/3_accessingubuntu.png)
