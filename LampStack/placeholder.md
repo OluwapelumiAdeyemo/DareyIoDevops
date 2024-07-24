@@ -2,5 +2,5 @@
 
 ##This shows connection to the ec2 instance
 
-![13_sudonano.png!](./img/13_sudonano.png)
+![1_ec2connect.png!](./img/1.ec2connect.png)
 
