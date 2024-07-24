@@ -55,7 +55,6 @@ cd /var/www/
 ![4_apacheserver!](./img/13_sudonano.png)
 
 ![4_apacheserver!](./img/14_enablesites.png)
-
 ![4_apacheserver!](./img/15_hostname.png)
 
 ## To try to open my website through my web browser, using the my public IP, run the below command.
