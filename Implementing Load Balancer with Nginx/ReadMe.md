@@ -16,11 +16,15 @@ Apache 1
 
 ![1_name!](./img/3_sshconnect.png)
 
-![1_name!](./img/2_connectwebserver2 - copy.png)
-
-
 ## Install Apache on both Webservers using the below commands;
 sudo apt update -y
 
 ![1_name!](./img/4_script.png)
 ![1_name!](./img/5_installapacheonpub.png)
+
+## sudo systemctl status apache2
+
+![1_name!](./img/6_scriptrun.png)
+
+##
+
