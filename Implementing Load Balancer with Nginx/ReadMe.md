@@ -16,7 +16,7 @@ Apache 1
 
 ![1_name!](./img/3_sshconnect.png)
 
-![1_name!](./img/2_connectwebserver2.png)
+![1_name!](./img/2_connectwebserver2-copy.png)
 
 
 ## Install Apache on both Webservers using the below commands;
