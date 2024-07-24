@@ -8,3 +8,9 @@
 sudo apt update
 
 ![1_load!](./img/2_nginxinstall.png)
+
+## To verify that nginx was installed properly
+sudo systemctl status nginx
+
+![1_load!](./img/2_nginxrunning.png)
+
