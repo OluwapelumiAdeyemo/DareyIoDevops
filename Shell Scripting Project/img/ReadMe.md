@@ -9,3 +9,13 @@ name="John"
 read -p "Enter a number: " num
 
 ![1_name!](../img/2_number.png)
+
+## Iterating through a list using a for loop
+
+![1_name!](../img/3_loop.png)
+
+## Accept user input
+echo "Enter your name:"
+read name
+
+![1_name!](../img/4_name.png)
