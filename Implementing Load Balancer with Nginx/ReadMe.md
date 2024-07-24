@@ -24,7 +24,7 @@ sudo apt update -y
 
 ## sudo systemctl status apache2
 
-![1_name!](./img/13_nginxrunning.png)
+![1_name!](./img/13_nginxrunning2.png)
 ![1_ec2connect.png!](./img/5_apacheisrunning.png)
 
 ## To configure Apache to serve content on port 8000.
@@ -39,7 +39,7 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 
 ![1_ec2connect.png!](./img/7_edittoport8000.png)
 
-![1_ec2connect.png!](./img/8_publicipchange.png)
+![1_ec2connect.png!](./img/9_publicipchange.png)
 
 ## A Welcome Web Browser Apache 1 & 2 Servers
 
