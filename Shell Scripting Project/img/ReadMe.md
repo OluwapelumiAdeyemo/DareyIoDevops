@@ -3,6 +3,6 @@
  ## EG. Assigning a value to a variable
 name="John"
 
-![1_load!](./img/12_calculations.png)
+![1_load!](../img/12_calculations.png)
 
 ![1_name.png!](./img/1_name.png)
