@@ -138,7 +138,7 @@ sudo yum module reset php
 sudo yum module enable php:remi-7.4
 sudo yum install php php-opcache php-gd php-curl php-mysqlnd
 
-![1_name!](../img/3_phpdependencies.png)
+![1_name!](../img/13_installingphpdependencies.png)
 
 ## To downlaod Wordpress and copy wordpress to var/www/html, run the below command;
 mkdir wordpress
