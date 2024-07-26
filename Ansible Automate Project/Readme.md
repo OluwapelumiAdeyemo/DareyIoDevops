@@ -11,8 +11,6 @@
 
 ## Confirm that Ansible is installed successfully
 Check your Ansible Version by running the below command
-```javascript
-ansible --version
 
 ![cd](./img/3_ansibleversion.png)
 
