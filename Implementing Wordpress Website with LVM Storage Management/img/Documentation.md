@@ -46,7 +46,7 @@ Click yes to complete the process
 ## To view the newly configured partition on each of the 3 disks
 lsblk 
 
-![1_name!](../img/14_newlyconfiguredpartitionview.png)
+![1_name!](../img/14_newlyconfiguredpartitionview2.png)
 
 ## Run the below command to check for available partitions
 sudo lvmdiskscan
