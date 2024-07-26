@@ -5,7 +5,8 @@
 
 ## Create a new repository called ansible-config-mgt in your GitHub account.
 
-![cd](./img/2_ansibleconfig.png)
+![cd](../img/2_ansibleconfig.png)
+
 ![cd](./img/2_ansibleinstallation.png)
 
 ## Confirm that Ansible is installed successfully
