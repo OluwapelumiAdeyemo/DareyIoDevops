@@ -24,7 +24,7 @@ Select the Web-server EC2 instance and click attach
 To inspect what block device is attched to the server
 lsblk
 
-![1_name!](../img/6_lsblkinspect.png)
+![1_name!](../img/3_lsblkviewpaartitions.png)
 ![1_name!](../img/7_lsdevcommand.png)
 
 ## To see all mount and free space on the web-server
