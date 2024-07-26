@@ -99,8 +99,126 @@ sudo systemctl daemon-reload
 
 ![1_name!](../img/21_testconfiguration.png)
 
+## To verify the set up is running well
+df -h
+
+![1_name!](../img/1_df-h.png)
+
+## HEADING - INSTALLING WORDPRESS AND CONFIGURING IT TO USE MYSQL DATABASE
+STEP-2 PREPARING THE DATABASE SERVER
+Repeating the same step above, BUt instead of apps-lv create db-lv and mount it into directory /db instead of /var/www/html
+Launch an EC2 instance DB-serveron redhart OS
+
+![1_name!](../img/1_linuxwebserver.png)
+
+## Create and attach 3-volumes to the DB-Server
+
+![1_name!](../img/1_volumecreation.png)
+![1_name!](../img/5_attachvolumetoinstance.png)
+![1_name!](../img/3_lsblkviewpartition.png)
+![1_name!](../img/4_installlvm2.png)
+![1_name!](../img/6_webdatacreate.png)
+
+## STEP-3 INSTALLING WORDPRESS ON YOUR WEB SERVER EC2 INSTANCE
+Before we install Wordpress, we would first update the reprository by running the below command
+sudo yum -y update
+
+![1_name!](../img/6a_sudoupdate.png)
+
+## To install Apache, wget and its dependencies
+sudo yum -y install wget httpd php php-mysqlnd php-fpm php-json
+
+![1_name!](../img/6_mysql-serverinstall.png)
+
+## To install PHP and its dependencies, run the below command;
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+sudo yum install yum-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
+sudo yum module list php
+sudo yum module reset php
+sudo yum module enable php:remi-7.4
+sudo yum install php php-opcache php-gd php-curl php-mysqlnd
+
+![1_name!](../img/3_phpdependencies.png)
+
+## To downlaod Wordpress and copy wordpress to var/www/html, run the below command;
+mkdir wordpress
+cd   wordpress
+sudo wget http://wordpress.org/latest.tar.gz
+sudo tar xzvf latest.tar.gz
+sudo rm -rf latest.tar.gz
+sudo cp wordpress/wp-config-sample.php wordpress/wp-config.php
+sudo cp -R wordpress /var/www/html/
+
+![1_name!](../img/4_wordpressinstallation.png)
+
+## STEP 4 - INSTALLING MYSQL ON YOUR DB SERVER EC2
+To update and Install mysql-server
+sudo yum update
+
+![1_name!](../img/6a_sudoupdate.png)
+
+## sudo yum install mysql-server
+
+![1_name!](../img/6_mysql-serverinstall.png)
+
+## To verify if the set-up is running
+sudo systemctl restart mysqld
+sudo systemctl status mysqld,
+
+![1_name!](../img/7_verifymysqlserver.png)
+
+## CONFIGURE DB TO WORK WITH WORDPRESS
+sudo mysql
+CREATE DATABASE wordpress;
+CREATE USER `myuser`@`<Web-Server-Private-IP-Address>` IDENTIFIED BY 'mypass';
+GRANT ALL ON wordpress.* TO 'myuser'@'<Web-Server-Private-IP-Address>';
+FLUSH PRIVILEGES;
+SHOW DATABASES;
+exit
+
+![1_name!](../img/8_sudomysql.png)
+
+![1_name!](../img/9_connectdbtowordpress.png)
+
+ ## CONFIGURE WORDPRESS TO CONNECT TO REMOTE DATABASE
+Open MYSQL port 3306 on DB-server and access it only from web-servers IP address
+In the inbound rule configure source as /32
+
+![1_name!](../img/10_port3306.png)
+
+## To Install MySQL client on the web server and test that you can connect from Web-server to DB-server using mysql-client
+
+sudo yum install mysql
+On the Database Server, Create an admin user in mysql using the below parameter. This will be used to create a remote connection through the web server.
+
+CREATE USER 'username'@'host' IDENTIFIED BY 'password';
+Note: Username should be your desired name; host - replace host with the Subnet cidr of the webserver
+
+![1_name!](../img/10_testconfiguration.png)
+
+## in the web server, vi into the wp-config file by runing the below command
+
+sudo vi /var/www/html/wordpress/wp-config.php
+Note - Replace the following with the real values. database_name_here with the wordpress, username_here with admin, password_here with the password of the admin, localhost with the private ip of the database server.
+
+![1_name!](../img/13_wordpressconfig2.png)
+
+## Now, try to access from your browser link to the wordpress using your web server ip.
+
+http://<web-server-public-ip-address>/wordpress/
+
+![1_name!](../img/14_wordpresspage.png)
 
 
-![1_name!](../img/21_updatefstab.png)
+
+
+
+
+
+
+
+
+
+
 
 
