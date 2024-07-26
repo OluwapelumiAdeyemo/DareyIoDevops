@@ -1,7 +1,7 @@
 ## Install and Configure Ansible on EC2 Instance
  Update the Name tag on your Jenkins EC2 Instance to Jenkins-Ansible.
    
-![cd](./img/1_instance.png)
+![cd](../img/1_instance.png)
 
 ## Create a new repository called ansible-config-mgt in your GitHub account.
 
