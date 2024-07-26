@@ -79,7 +79,7 @@ sudo mount /dev/webdata-vg/lv-logs /var/log
 ## To install NFS server, run the below command;
 sudo yum -y update
 
-![cd](./img/12_sudonfsinstall.png)
+![cd](./img/11_sudonfsinstall.png)
 
 ## To verfify the installation
 ![cd](./img/13_sudosystemctlstatus.png)
@@ -98,7 +98,7 @@ sudo vi /etc/exports
 
 ## MySQL server Installation
 
-![cd](./img/18_mysqldbinstance.png)
+![cd](./img/19_installmysqlserver.png)
 
 ## sudo mysql
 Run the below command in the database environment. % means - any IP range under that
@@ -111,7 +111,9 @@ SHOW DATABASES;
 exit
 
 ![cd](./img/20_toolingdatabase.png)
+
 ![cd](./img/21_toolingdatabase2.png)
+
 ![cd](./img/22_toolingdatabase4.png)
 
 ![cd](./img/23_checkdatabase.png)
