@@ -3,6 +3,9 @@
    
 ![cd](../img/1_instance.png)
 
+![cd](./img/1_instance.png)
+
+
 ## Create a new repository called ansible-config-mgt in your GitHub account.
 
 ![cd](./img/2_ansibleconfig.png)
