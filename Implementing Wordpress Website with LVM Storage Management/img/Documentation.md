@@ -201,7 +201,7 @@ Note: Username should be your desired name; host - replace host with the Subnet 
 sudo vi /var/www/html/wordpress/wp-config.php
 Note - Replace the following with the real values. database_name_here with the wordpress, username_here with admin, password_here with the password of the admin, localhost with the private ip of the database server.
 
-![1_name!](../img/13_wordpressconfig2.png)
+![1_name!](../img/13_Wordpressconfig2.png)
 
 ## Now, try to access from your browser link to the wordpress using your web server ip.
 
