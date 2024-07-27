@@ -12,7 +12,7 @@ log into the jenkins web console to install a plugin called "copy artifacts" wit
 
 ![1_name!](../img/3_artifacts.png)
 
-![1_name!](../img/4_saveartifacts.png)
+![1_name!](../img/3_saveartifacts.png)
 
 ![1_name!](../img/5_git.png)
 
