@@ -72,8 +72,6 @@ Install Ansible on the Jenkins-Ansible server.
 
 ![1_name!](../img/23_firstansible.png)
 
-![1_name!](../img/24_configwebhook.png)
-
 ## Configure a Post-build job to save all (**) files.
 Configure a webhook in GitHub and set the webhook to trigger ansible build.
 
