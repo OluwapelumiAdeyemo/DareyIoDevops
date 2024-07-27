@@ -77,10 +77,6 @@ Configure a webhook in GitHub and set the webhook to trigger ansible build.
 
 ![1_name!](../img/25_webhook.png)
 
-## Git clone
-
-![1_name!](../img/26_gitclone.png)
-
 ## Create a playbooks (i.e. used to store all the playbook files) and inventory (i.e. used to keep your hosts organized) directory.
 
 ![1_name!](../img/27_ansibleplaybook.png)
