@@ -19,11 +19,11 @@ The use case of secondary CIDR block could be because you're running out of IPs 
 
 the test-vpc or anything you tagged your VPC (first-vpc)
 
-![1_name!](./img/3_subnets.png)
+![1_name!](../img/3_subnets.png)
 
-![1_curl!](../img/4_subnets.png)
+![1_curl!](../img/4_subnet.png)
 
-![1_curl!](../img/4a_subnets.png)
+![1_curl!](../img/4a_subnet.png)
 
 ![1_curl!](../img/5_subnetcreation.png)
 
